@@ -1,0 +1,24 @@
+{
+  "name": "Wayfinder",
+  "description": "Find the room. Save the world.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Daniel Eden",
+    "email": "dan.eden@me.com"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-autoprefixer": "~0.4.0",
+    "grunt-contrib-sass": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-csso": "~0.5.2",
+    "grunt-notify": "~0.2.16",
+    "grunt-svgmin": "~0.3.0",
+    "grunt-svg2png": "~0.2.1",
+    "grunt-remfallback": "~0.0.5",
+    "grunt-responsive-images": "~0.1.2"
+  },
+  "keywords": []
+}

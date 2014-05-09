@@ -1,0 +1,16 @@
+/*-----------------------------------*\
+
+  Partial: layout
+
+  Layout rules
+
+\*-----------------------------------*/
+
+@import "grid";
+
+
+.wrap {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1.4rem;
+}
