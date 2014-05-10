@@ -5,3 +5,23 @@
   Type styles
 
 \*-----------------------------------*/
+
+h1, .alpha {
+  font-size: 3rem;
+  line-height: 1.375;
+  font-weight: 100;
+}
+
+h3, .gamma {
+  font-size: 1.125rem;
+  line-height: 1.222222222;
+}
+
+p,
+h1, .alpha {
+  margin-bottom: 1.375rem;
+}
+
+.promo {
+  text-align: center;
+}

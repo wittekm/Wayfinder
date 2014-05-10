@@ -7,11 +7,6 @@
 
 \*-----------------------------------*/
 
-
-.tt-hint {
-  color: rgba(0,0,0,.35);
-}
-
 .main {
   margin-top: 15%;
 }
@@ -28,9 +23,13 @@
     weight: 100;
   }
 
+  @media (-webkit-animation) {
+    color: $blue;
+    -webkit-text-fill-color: $dark-gray;
+  }
+
   background-color: none;
   border: none;
-  border-bottom: 1px solid $blue;
 
   appearance: none;
 
@@ -41,8 +40,32 @@
   @media (max-width: 500px) {
     font-size: 2rem;
   }
+
+  &::-webkit-input-placeholder {
+    //color: rgba(0,0,0,.35);
+    -webkit-text-fill-color: rgba(0,0,0,.35);
+  }
+}
+
+.tt-hint, .js-typeahead.tt-hint {
+  color: rgba(0,0,0,.35);
+  -webkit-text-fill-color: rgba(0,0,0,.35);
+}
+
+.tt-suggestions, .tt-dropdown-menu {
+  display: block;
+  width: 100%;
 }
 
 .tt-suggestion {
   margin-bottom: 1.4rem;
+  width: 100%;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.tt-cursor {
+  color: $blue;
 }

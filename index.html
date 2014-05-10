@@ -8,7 +8,18 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header></header>
+  <header class="site__header">
+    <input class="menu--toggle" id="menu" name="menu" type="checkbox" />
+    <label for="menu" class="menu--hamburger"><i>Show Menu</i></label>
+
+    <div class="overlay site__menu">
+      <div class="menu--wrap">
+        <h1>Wayfinder</h1>
+        <p>Find your way. Fast.</p>
+        <p>Type in a room name and get to your meeting. Made by <a href="mailto:dte@dropbox.com">Daniel Eden</a>.</p>
+      </div>
+    </div>
+  </header>
 
   <div class="main wrap">
     <input class="js-typeahead" name="roomsearch" placeholder="Looking for your room?" autofocus />
