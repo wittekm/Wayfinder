@@ -1045,7 +1045,7 @@ body {
   border-color: white;
 }
 
-.menu--toggle:checked + .menu--hamburger + .site__menu {
+.menu--toggle:checked + .menu--hamburger ~ .site__menu {
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
@@ -1115,7 +1115,7 @@ body {
 
 @media (max-width: 500px) {
   .js-typeahead {
-    font-size: 2rem;
+    font-size: 1.85rem;
   }
 }
 

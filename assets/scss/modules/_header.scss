@@ -87,7 +87,7 @@
     border-color: white;
   }
 
-  + .site__menu {
+  ~ .site__menu {
     transform: translateY(0);
   }
 }
