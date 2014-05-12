@@ -18,6 +18,7 @@ module.exports = function(grunt) {
 
   // The order matters!
   var jsFiles = [
+    'assets/js/vendor/**/*.js',
     'assets/js/src/*.js',
     'assets/js/src/**/*.js'
   ];

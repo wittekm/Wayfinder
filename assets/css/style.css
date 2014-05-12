@@ -954,6 +954,7 @@ body {
 .menu--toggle,
 .menu--hamburger {
   z-index: 1000;
+  cursor: pointer;
 }
 
 .menu--toggle {
@@ -1084,7 +1085,7 @@ body {
 \*-----------------------------------*/
 
 .main {
-  margin-top: 15%;
+  margin-top: 20%;
 }
 
 .js-typeahead {
