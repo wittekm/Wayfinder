@@ -187,7 +187,7 @@ $(document).ready(function(){
       },
 
       {
-        "name": "Challange Accepted",
+        "name": "Challenge Accepted",
         "landmarks": ["Between the Café and Biggie", " Café side"],
         "size": "2 People",
       },
