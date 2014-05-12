@@ -239,6 +239,16 @@ $(document).ready(function(){
         "landmarks": ["By the Reception", " Café side"],
         "size": "2 People",
       },
+
+      {
+        "name": "Shipping",
+        "landmarks": ["Inside the Reception lobby"],
+      },
+
+      {
+        "name": "Receiving",
+        "landmarks": ["Inside the Reception lobby"],
+      },
     ]
   });
 
