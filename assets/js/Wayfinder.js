@@ -1714,7 +1714,11 @@
         };
     })();
 })(window.jQuery);
-;$(document).ready(function(){
+;window.onload = function() {
+  var input = document.querySelectorAll(".js-typeahead")[0].focus();
+}
+
+$(document).ready(function(){
 
   var roomsList = new Bloodhound({
     name: 'sf-rooms',
