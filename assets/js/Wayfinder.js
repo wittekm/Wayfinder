@@ -1246,9 +1246,9 @@
             });
         }
         _.mixin(Dropdown.prototype, EventEmitter, {
-            _onSuggestionClick: function onSuggestionClick($e) {
-                this.trigger("suggestionClicked", $($e.currentTarget));
-            },
+            // _onSuggestionClick: function onSuggestionClick($e) {
+            //     this.trigger("suggestionClicked", $($e.currentTarget));
+            // },
             _onSuggestionMouseEnter: function onSuggestionMouseEnter($e) {
                 this._removeCursor();
                 this._setCursor($($e.currentTarget), true);
