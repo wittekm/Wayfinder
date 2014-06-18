@@ -127,7 +127,7 @@ module.exports = function(grunt) {
     watch: {
       javascriptDev: {
         files: ['assets/js/**/*.js', '!assets/js/Wayfinder.js', '!assets/js/Wayfinder.min.js'],
-        tasks: ['concat:dev'],
+        tasks: ['concat:dev', 'uglify:production'],
         options: {
           livereload: false
         }

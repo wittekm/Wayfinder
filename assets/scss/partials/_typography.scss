@@ -8,11 +8,13 @@
 
 h1, .alpha {
   font-size: 3rem;
-  line-height: 1.375;
+  line-height: 1;
   font-weight: 100;
 }
 
 h3, .gamma {
+  margin-bottom: .25rem;
+
   font-size: 1.125rem;
   line-height: 1.222222222;
 }
@@ -24,4 +26,15 @@ h1, .alpha {
 
 .promo {
   text-align: center;
+}
+
+small, .small {
+  display: inline-block;
+
+  font-size: .75rem;
+}
+
+.caps {
+  text-transform: uppercase;
+  letter-spacing: .1em;
 }

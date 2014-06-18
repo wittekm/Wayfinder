@@ -9,7 +9,9 @@
 
 html {
   font: 100%/1.375 "Helvetica Neue", Helvetica, Arial;
-  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  color: $dark-gray;
+  text-rendering: optimizeLegibility;
 }
 
 html, body {

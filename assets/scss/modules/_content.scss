@@ -9,6 +9,16 @@
 
 .main {
   margin-top: 20%;
+
+  @media (max-width: 600px) {
+    margin-top: 25%;
+  }
+
+  @media (min-width: 1200px) {
+    margin-top: 0;
+    top: 45%;
+    transform: translateY(-50%);
+  }
 }
 
 .js-typeahead {
@@ -22,6 +32,7 @@
     size:  3rem;
     weight: 100;
   }
+  -webkit-font-smoothing: antialiased;
 
   @media (-webkit-animation) {
     color: $blue;
@@ -63,6 +74,10 @@
 
   p {
     margin-bottom: 0;
+  }
+
+  * strong {
+    font-weight: inherit;
   }
 }
 

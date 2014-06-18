@@ -19,3 +19,30 @@
   left: 0;
   z-index: 900;
 }
+
+.floor {
+  padding: .25rem .15rem .2rem .25rem;
+  margin: .1rem;
+  display: inline-block;
+  vertical-align: top;
+
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: .1em;
+
+  background-color: $lighter-gray;
+  border-radius: .25rem;
+  box-shadow: inset 0 0 0 1px rgba(black, .1);
+
+  &--b4 {
+    background-color: $blue;
+  }
+
+  &--b5 {
+    background-color: $green;
+  }
+
+  &--w6 {
+    background-color: $violet;
+  }
+}
