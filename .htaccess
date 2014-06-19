@@ -1,3 +1,5 @@
+AddDefaultCharset utf-8
+
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://wayfinder.daneden.me/$1 [R,L]
