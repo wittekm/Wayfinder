@@ -29,7 +29,8 @@
 
   font: inherit;
   font: {
-    size:  3rem;
+    size:  2.8rem;
+    letter-spacing: -.04em;
     weight: 100;
   }
   -webkit-font-smoothing: antialiased;
@@ -49,7 +50,7 @@
   }
 
   @media (max-width: 500px) {
-    font-size: 1.85rem;
+    font-size: 1.7rem;
   }
 
   &::-webkit-input-placeholder {

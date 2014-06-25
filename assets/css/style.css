@@ -27,7 +27,7 @@
 \*-----------------------------------*/
 
 html {
-  font: 100%/1.375 "Helvetica Neue", Helvetica, Arial;
+  font: 100%/1.375 "Roboto", "Helvetica Neue", Helvetica, Arial;
   -webkit-font-smoothing: antialiased;
   color: #3d464d;
   text-rendering: optimizeLegibility;
@@ -135,8 +135,8 @@ body {
 }
 
 .floor {
-  padding: 4px 2.4px 3.2px 4px;
-  padding: .25rem .15rem .2rem .25rem;
+  padding: 3.2px 2.4px 3.2px 4px;
+  padding: .2rem .15rem .2rem .25rem;
   margin: 1.6px;
   margin: .1rem;
   display: inline-block;
@@ -289,7 +289,7 @@ small,
 \*-----------------------------------*/
 
 html {
-  font: 100%/1.375 "Helvetica Neue", Helvetica, Arial;
+  font: 100%/1.375 "Roboto", "Helvetica Neue", Helvetica, Arial;
   -webkit-font-smoothing: antialiased;
   color: #3d464d;
   text-rendering: optimizeLegibility;
@@ -496,8 +496,9 @@ body {
   margin: 0 auto 1.4rem;
   width: 100%;
   font: inherit;
-  font-size: 48px;
-  font-size: 3rem;
+  font-size: 44.8px;
+  font-size: 2.8rem;
+  font-letter-spacing: -.04em;
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
   background-color: none;
@@ -518,7 +519,7 @@ body {
 
 @media (max-width: 500px) {
   .js-typeahead {
-    font-size: 1.85rem;
+    font-size: 1.7rem;
   }
 }
 
