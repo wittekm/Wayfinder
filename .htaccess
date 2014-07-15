@@ -20,4 +20,3 @@ Header set Connection keep-alive
 </IfModule>
 
 Header set Access-Control-Allow-Origin "*"
-Access-Control-Allow-Origin: *
