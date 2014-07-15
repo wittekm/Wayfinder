@@ -18,3 +18,5 @@ RewriteRule ^(.*)$ https://wayfinder.daneden.me/$1 [R,L]
 <IfModule mod_headers.c>
 Header set Connection keep-alive
 </IfModule>
+
+Header set Access-Control-Allow-Origin "*"
