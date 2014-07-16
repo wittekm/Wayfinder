@@ -471,7 +471,7 @@ body {
 \*-----------------------------------*/
 
 .main {
-  margin-top: 20%;
+  margin-top: 30%;
   -webkit-animation: inputFade 1s;
   animation: inputFade 1s;
   -webkit-animation-timing-function: cubic-bezier(0.91, 0.14, 0.29, 1);
