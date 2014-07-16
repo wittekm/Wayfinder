@@ -144,6 +144,7 @@ body {
   color: #fff;
   font-weight: 700;
   letter-spacing: .1em;
+  text-transform: uppercase;
   background-color: #7b8994;
   border-radius: 4px;
   border-radius: .25rem;
@@ -471,6 +472,12 @@ body {
 
 .main {
   margin-top: 20%;
+  -webkit-animation: inputFade 1s;
+  animation: inputFade 1s;
+  -webkit-animation-timing-function: cubic-bezier(0.91, 0.14, 0.29, 1);
+  animation-timing-function: cubic-bezier(0.91, 0.14, 0.29, 1);
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 @media (max-width: 600px) {
@@ -486,6 +493,36 @@ body {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+  }
+}
+
+@-webkit-keyframes inputFade {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+  }
+}
+
+@keyframes inputFade {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -50%, 0);
+    -ms-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
   }
 }
 
@@ -549,12 +586,28 @@ body {
   margin-bottom: 0;
 }
 
+.tt-suggestion h3 {
+  color: rgba(61, 70, 77, 0.5);
+}
+
+.tt-suggestion h3 strong {
+  color: #3d464d;
+}
+
 .tt-suggestion * strong {
   font-weight: inherit;
 }
 
 .tt-cursor {
   color: #1081de;
+}
+
+.tt-cursor h3 {
+  color: inherit;
+}
+
+.tt-cursor h3 strong {
+  color: inherit;
 }
 
 /*-----------------------------------*\

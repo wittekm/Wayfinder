@@ -19,6 +19,24 @@
     top: 45%;
     transform: translateY(-50%);
   }
+
+  animation: inputFade 1s;
+  animation-timing-function: cubic-bezier(.91,.14,.29,1);
+  animation-fill-mode: both;
+
+  @at-root {
+    @keyframes inputFade {
+      0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translate3d(0, -50%, 0);
+      }
+    }
+  }
 }
 
 .js-typeahead {
@@ -77,6 +95,14 @@
     margin-bottom: 0;
   }
 
+  h3 {
+    color: rgba($dark-gray, .5);
+
+    strong {
+      color: $dark-gray;
+    }
+  }
+
   * strong {
     font-weight: inherit;
   }
@@ -84,4 +110,12 @@
 
 .tt-cursor {
   color: $blue;
+
+  h3 {
+    color: inherit;
+
+    strong {
+      color: inherit;
+    }
+  }
 }

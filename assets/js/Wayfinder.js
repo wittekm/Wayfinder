@@ -13305,7 +13305,7 @@ $(document).ready(function(){
         "name": "Turbo",
         "landmarks": ["Between The Mint and Tupac", " opposite Lobby 6 elevators", " Reception side"],
         "size": "12 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13313,7 +13313,7 @@ $(document).ready(function(){
         "name": "Titan",
         "landmarks": ["Between The Mint and Tupac", " opposite Lobby 6 elevators", " Café side"],
         "size": "12 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13321,7 +13321,7 @@ $(document).ready(function(){
         "name": "Sonic",
         "landmarks": ["Opposite the gym", " between The Mint and the Café", " Reception side"],
         "size": "12 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13329,7 +13329,7 @@ $(document).ready(function(){
         "name": "Nitro",
         "landmarks": ["Opposite the gym", " between The Mint and the Café", " Café side"],
         "size": "12 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13337,7 +13337,7 @@ $(document).ready(function(){
         "name": "Chaos",
         "landmarks": ["Between the Café and Biggie", " opposite Lobby 2 elevators", " Café side"],
         "size": "12 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13345,7 +13345,7 @@ $(document).ready(function(){
         "name": "Doorman Drew",
         "landmarks": ["By the Reception", " towards Biggie", " Reception side"],
         "size": "12 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13353,7 +13353,7 @@ $(document).ready(function(){
         "name": "Supply Depot",
         "landmarks": ["By the Mint", " Reception side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13361,7 +13361,7 @@ $(document).ready(function(){
         "name": "Sixpool",
         "landmarks": ["By the Mint", " Reception side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13369,7 +13369,7 @@ $(document).ready(function(){
         "name": "Santa Barbara Honda",
         "landmarks": ["By the Mint", " Reception side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13377,7 +13377,7 @@ $(document).ready(function(){
         "name": "Rainbow Shell",
         "landmarks": ["By the Mint", " Café side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13385,7 +13385,7 @@ $(document).ready(function(){
         "name": "Psychobox",
         "landmarks": ["By the Mint", " Café side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13393,7 +13393,7 @@ $(document).ready(function(){
         "name": "Powerthrough",
         "landmarks": ["By the Mint", " Café side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13401,7 +13401,7 @@ $(document).ready(function(){
         "name": "Sync",
         "landmarks": ["Opposite the Mint"],
         "size": "Interviews only",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13409,7 +13409,7 @@ $(document).ready(function(){
         "name": "Check",
         "landmarks": ["Opposite the Mint"],
         "size": "Interviews only",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13417,7 +13417,7 @@ $(document).ready(function(){
         "name": "Heart",
         "landmarks": ["Opposite the Mint"],
         "size": "Interviews only",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13425,7 +13425,7 @@ $(document).ready(function(){
         "name": "Shalimar",
         "landmarks": ["In Tupac", " behind the snacks"],
         "size": "4 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13433,7 +13433,7 @@ $(document).ready(function(){
         "name": "Jenny (8675309)",
         "landmarks": ["In Tupac", " between the snacks and the elevators"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13441,7 +13441,7 @@ $(document).ready(function(){
         "name": "Dropbox blue (1f75CC)",
         "landmarks": ["In Tupac", " between the snacks and the elevators"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13449,7 +13449,7 @@ $(document).ready(function(){
         "name": "Tulan",
         "landmarks": ["In Tupac", " between the snacks and the elevators"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13457,7 +13457,7 @@ $(document).ready(function(){
         "name": "HALP",
         "landmarks": ["Between the Reception and Biggie", " Reception side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13465,7 +13465,7 @@ $(document).ready(function(){
         "name": "Fortress of Solitude",
         "landmarks": ["Between the Reception and Biggie", " Reception side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13473,7 +13473,7 @@ $(document).ready(function(){
         "name": "First World Problem",
         "landmarks": ["Between the Reception and Biggie", " Reception side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13481,7 +13481,7 @@ $(document).ready(function(){
         "name": "Muracci’s",
         "landmarks": ["Between the Reception and Biggie", " opposite the Lobby 2 elevators", " Reception side"],
         "size": "4 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13489,7 +13489,7 @@ $(document).ready(function(){
         "name": "Katana-ya",
         "landmarks": ["Between the Reception and Biggie", " opposite the Lobby 2 elevators", " Reception side"],
         "size": "4 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13497,7 +13497,7 @@ $(document).ready(function(){
         "name": "Carousel",
         "landmarks": ["In Biggie", " Reception side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13505,7 +13505,7 @@ $(document).ready(function(){
         "name": "Bikeshed",
         "landmarks": ["In Biggie", " Reception side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13513,7 +13513,7 @@ $(document).ready(function(){
         "name": "Arrears",
         "landmarks": ["In Biggie", " Reception side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13521,7 +13521,7 @@ $(document).ready(function(){
         "name": "Back to The Future",
         "landmarks": ["In Biggie", " behind the snacks"],
         "size": "10 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13529,7 +13529,7 @@ $(document).ready(function(){
         "name": "The Future is Now",
         "landmarks": ["In Biggie", " behind the snacks"],
         "size": "10 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13537,7 +13537,7 @@ $(document).ready(function(){
         "name": "All Seasons",
         "landmarks": ["In Biggie", " between the snacks and the elevators"],
         "size": "4 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13545,7 +13545,7 @@ $(document).ready(function(){
         "name": "Challenge Accepted",
         "landmarks": ["Between the Café and Biggie", " Café side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13553,7 +13553,7 @@ $(document).ready(function(){
         "name": "Champageday",
         "landmarks": ["Between the Café and Biggie", " Reception side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13561,7 +13561,7 @@ $(document).ready(function(){
         "name": "Ferdonic Plague",
         "landmarks": ["By the Café", " towards Biggie", " Café side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13569,7 +13569,7 @@ $(document).ready(function(){
         "name": "Crystal Towers",
         "landmarks": ["By the Café", " towards Biggie", " Café side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13577,7 +13577,7 @@ $(document).ready(function(){
         "name": "Coin Battle",
         "landmarks": ["By the Café", " towards Biggie", " Café side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13585,7 +13585,7 @@ $(document).ready(function(){
         "name": "It is What It is",
         "landmarks": ["By the Café", " towards Tupac", " Café side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13593,7 +13593,7 @@ $(document).ready(function(){
         "name": "Masamune",
         "landmarks": ["By the Café", " towards Tupac", " Café side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13601,7 +13601,7 @@ $(document).ready(function(){
         "name": "Meteor Crater",
         "landmarks": ["By the Café", " towards Tupac", " Café side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13609,21 +13609,21 @@ $(document).ready(function(){
         "name": "Ohshoot",
         "landmarks": ["By the Reception", " Café side"],
         "size": "2 People",
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
       {
         "name": "Tupac",
         "landmarks": ["West side", " overlooking Fourth St"],
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
       {
         "name": "Biggie",
         "landmarks": ["East side", " overlooking Third St", " opposite AT&T Park"],
-        "floor": "B4",
+        "floor": "Berry St. building, 4th floor",
         "key": "b4",
       },
 
@@ -13635,7 +13635,7 @@ $(document).ready(function(){
         "name": "Emoji",
         "landmarks": ["Left of the Reception", " around the corner"],
         "size": "1 Person",
-        "floor": "B5",
+        "floor": "Berry St. building, 5th floor",
         "key": "b5",
       },
 
@@ -13643,7 +13643,7 @@ $(document).ready(function(){
         "name": "Evenflow",
         "landmarks": ["Left of the Reception", " around the corner"],
         "size": "1 Person",
-        "floor": "B5",
+        "floor": "Berry St. building, 5th floor",
         "key": "b5",
       },
 
@@ -13651,7 +13651,7 @@ $(document).ready(function(){
         "name": "153 Kearny",
         "landmarks": ["Left of the Reception"],
         "size": "2 People",
-        "floor": "B5",
+        "floor": "Berry St. building, 5th floor",
         "key": "b5",
       },
 
@@ -13659,7 +13659,7 @@ $(document).ready(function(){
         "name": "760 Market",
         "landmarks": ["Left of the Reception"],
         "size": "2 People",
-        "floor": "B5",
+        "floor": "Berry St. building, 5th floor",
         "key": "b5",
       },
 
@@ -13667,7 +13667,7 @@ $(document).ready(function(){
         "name": "Armeetingeddon",
         "landmarks": ["Left of the Reception"],
         "size": "2 People",
-        "floor": "B5",
+        "floor": "Berry St. building, 5th floor",
         "key": "b5",
       },
 
@@ -13675,7 +13675,7 @@ $(document).ready(function(){
         "name": "Athena",
         "landmarks": ["Left of the Reception"],
         "size": "4 People",
-        "floor": "B5",
+        "floor": "Berry St. building, 5th floor",
         "key": "b5",
       },
 
@@ -13683,7 +13683,7 @@ $(document).ready(function(){
         "name": "Dropbox (Dropbox)",
         "landmarks": ["Left of the Reception"],
         "size": "8 People",
-        "floor": "B5",
+        "floor": "Berry St. building, 5th floor",
         "key": "b5",
       },
 
@@ -13691,7 +13691,7 @@ $(document).ready(function(){
         "name": "Dropbox (Personal)",
         "landmarks": ["Left of the Reception"],
         "size": "8 People",
-        "floor": "B5",
+        "floor": "Berry St. building, 5th floor",
         "key": "b5",
       },
 
@@ -13699,7 +13699,7 @@ $(document).ready(function(){
         "name": "global_model.py",
         "landmarks": ["Right of the Reception", " Café side"],
         "size": "3 People",
-        "floor": "B5",
+        "floor": "Berry St. building, 5th floor",
         "key": "b5",
       },
 
@@ -13707,7 +13707,7 @@ $(document).ready(function(){
         "name": "Haiku",
         "landmarks": ["Right of the Reception", " Café side"],
         "size": "3 People",
-        "floor": "B5",
+        "floor": "Berry St. building, 5th floor",
         "key": "b5",
       },
 
@@ -13715,7 +13715,7 @@ $(document).ready(function(){
         "name": "Keep Austin Weird",
         "landmarks": ["Right of the Reception", " Café side"],
         "size": "4 People",
-        "floor": "B5",
+        "floor": "Berry St. building, 5th floor",
         "key": "b5",
       },
 
@@ -13723,7 +13723,7 @@ $(document).ready(function(){
         "name": "Makini Train",
         "landmarks": ["Right of the Reception", " Café side", " around the corner"],
         "size": "7 People",
-        "floor": "B5",
+        "floor": "Berry St. building, 5th floor",
         "key": "b5",
       },
 
@@ -13731,7 +13731,7 @@ $(document).ready(function(){
         "name": "Mandatory Team Meeting",
         "landmarks": ["Right of the Reception", " Café side", " around the corner"],
         "size": "7 People",
-        "floor": "B5",
+        "floor": "Berry St. building, 5th floor",
         "key": "b5",
       },
 
@@ -13739,7 +13739,7 @@ $(document).ready(function(){
         "name": "Shamdrop",
         "landmarks": ["Right of the Reception", " Café side", " around the corner"],
         "size": "10 People",
-        "floor": "B5",
+        "floor": "Berry St. building, 5th floor",
         "key": "b5",
       },
 
@@ -13747,7 +13747,7 @@ $(document).ready(function(){
         "name": "Shmodel",
         "landmarks": ["Right of the Reception", " Café side", " around the corner"],
         "size": "4 People",
-        "floor": "B5",
+        "floor": "Berry St. building, 5th floor",
         "key": "b5",
       },
 
@@ -13755,7 +13755,7 @@ $(document).ready(function(){
         "name": "Watermelon Alert",
         "landmarks": ["Right of the Reception", " Café side", " around the corner"],
         "size": "5 People",
-        "floor": "B5",
+        "floor": "Berry St. building, 5th floor",
         "key": "b5",
       },
 
@@ -13763,7 +13763,7 @@ $(document).ready(function(){
         "name": "With a Pulse",
         "landmarks": ["Right of the Reception", " Café side", " around the corner"],
         "size": "5 People",
-        "floor": "B5",
+        "floor": "Berry St. building, 5th floor",
         "key": "b5",
       },
 
@@ -13775,7 +13775,7 @@ $(document).ready(function(){
         "name": "Auth.net",
         "landmarks": ["Right of the Reception"],
         "size": "2 People",
-        "floor": "W6",
+        "floor": "Wharf building, 6th floor",
         "key": "w6",
       },
 
@@ -13783,7 +13783,7 @@ $(document).ready(function(){
         "name": "Battlecode",
         "landmarks": ["Right of the Reception"],
         "size": "2 People",
-        "floor": "W6",
+        "floor": "Wharf building, 6th floor",
         "key": "w6",
       },
 
@@ -13791,7 +13791,7 @@ $(document).ready(function(){
         "name": "Bluesky",
         "landmarks": ["Right of the Reception"],
         "size": "5 People",
-        "floor": "W6",
+        "floor": "Wharf building, 6th floor",
         "key": "w6",
       },
 
@@ -13799,7 +13799,7 @@ $(document).ready(function(){
         "name": "Few Nags",
         "landmarks": ["Right of the Reception"],
         "size": "2 People",
-        "floor": "W6",
+        "floor": "Wharf building, 6th floor",
         "key": "w6",
       },
 
@@ -13807,7 +13807,7 @@ $(document).ready(function(){
         "name": "Ejstorr",
         "landmarks": ["Right of the Reception"],
         "size": "2 People",
-        "floor": "W6",
+        "floor": "Wharf building, 6th floor",
         "key": "w6",
       },
 
@@ -13815,7 +13815,7 @@ $(document).ready(function(){
         "name": "Breakfast Taco",
         "landmarks": ["Right of the Reception"],
         "size": "2 People",
-        "floor": "W6",
+        "floor": "Wharf building, 6th floor",
         "key": "w6",
       },
 
@@ -13823,7 +13823,7 @@ $(document).ready(function(){
         "name": "Final Destination",
         "landmarks": ["Right of the Reception"],
         "size": "8 People",
-        "floor": "W6",
+        "floor": "Wharf building, 6th floor",
         "key": "w6",
       },
 
@@ -13831,7 +13831,7 @@ $(document).ready(function(){
         "name": "Fireshare",
         "landmarks": ["Right of the Reception"],
         "size": "8 People",
-        "floor": "W6",
+        "floor": "Wharf building, 6th floor",
         "key": "w6",
       },
 
@@ -13839,7 +13839,7 @@ $(document).ready(function(){
         "name": "Kava",
         "landmarks": ["Right of the Reception"],
         "size": "10 People",
-        "floor": "W6",
+        "floor": "Wharf building, 6th floor",
         "key": "w6",
       },
 
@@ -13847,7 +13847,7 @@ $(document).ready(function(){
         "name": "I Sync NYC",
         "landmarks": ["Right of the Reception"],
         "size": "10 People",
-        "floor": "W6",
+        "floor": "Wharf building, 6th floor",
         "key": "w6",
       },
 
@@ -13855,7 +13855,7 @@ $(document).ready(function(){
         "name": "Vegemite",
         "landmarks": ["Left of the Reception"],
         "size": "5 People",
-        "floor": "W6",
+        "floor": "Wharf building, 6th floor",
         "key": "w6",
       },
 
@@ -13863,7 +13863,7 @@ $(document).ready(function(){
         "name": "Too Soon?",
         "landmarks": ["Left of the Reception"],
         "size": "12 People",
-        "floor": "W6",
+        "floor": "Wharf building, 6th floor",
         "key": "w6",
       },
 
@@ -13871,7 +13871,7 @@ $(document).ready(function(){
         "name": "SJC",
         "landmarks": ["Left of the Reception"],
         "size": "5 People",
-        "floor": "W6",
+        "floor": "Wharf building, 6th floor",
         "key": "w6",
       },
 
@@ -13879,7 +13879,7 @@ $(document).ready(function(){
         "name": "Owen Not On The Wall!",
         "landmarks": ["Left of the Reception"],
         "size": "5 People",
-        "floor": "W6",
+        "floor": "Wharf building, 6th floor",
         "key": "w6",
       },
     ]
@@ -13898,7 +13898,7 @@ $(document).ready(function(){
     displayKey: 'name',
     source: roomsList.ttAdapter(),
     templates: {
-      suggestion: Handlebars.compile('<h3>{{name}} <small class="floor floor--{{key}}">{{floor}}</small></h3>
+      suggestion: Handlebars.compile('<h3>{{name}} <small class="floor floor--{{key}}" title="{{floor}}">{{key}}</small></h3>
       <p>{{landmarks}}</p>
       <p><small class="meta">{{size}}</small></p>'),
       empty: '<h3 class="promo">No rooms found</h3><p class="promo">Bummer.</p>'
