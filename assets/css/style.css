@@ -346,8 +346,8 @@ body {
   width: 32px;
   height: 16px;
   position: relative;
-  margin: 22px;
-  margin: 1.375rem;
+  margin: 32px 16px;
+  margin: 2rem 1rem;
   -webkit-transition: .2s;
   transition: .2s;
   -webkit-transition-delay: .15s;
@@ -471,7 +471,7 @@ body {
 \*-----------------------------------*/
 
 .main {
-  margin-top: 30%;
+  margin-top: 35%;
   -webkit-animation: inputFade 1s;
   animation: inputFade 1s;
   -webkit-animation-timing-function: cubic-bezier(0.91, 0.14, 0.29, 1);
