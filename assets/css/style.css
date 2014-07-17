@@ -472,8 +472,8 @@ body {
 
 .main {
   margin-top: 35%;
-  -webkit-animation: inputFade 1s;
-  animation: inputFade 1s;
+  -webkit-animation: inputFadeM 1s;
+  animation: inputFadeM 1s;
   -webkit-animation-timing-function: cubic-bezier(0.91, 0.14, 0.29, 1);
   animation-timing-function: cubic-bezier(0.91, 0.14, 0.29, 1);
   -webkit-animation-fill-mode: both;
@@ -482,7 +482,13 @@ body {
 
 @media (max-width: 600px) {
   .main {
-    margin-top: 25%;
+    margin-top: 0;
+    -webkit-animation: inputFadeS 1s;
+    animation: inputFadeS 1s;
+    -webkit-animation-timing-function: cubic-bezier(0.91, 0.14, 0.29, 1);
+    animation-timing-function: cubic-bezier(0.91, 0.14, 0.29, 1);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
   }
 }
 
@@ -496,7 +502,7 @@ body {
   }
 }
 
-@-webkit-keyframes inputFade {
+@-webkit-keyframes inputFadeM {
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, 100%, 0);
@@ -510,7 +516,7 @@ body {
   }
 }
 
-@keyframes inputFade {
+@keyframes inputFadeM {
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, 100%, 0);
@@ -523,6 +529,36 @@ body {
     -webkit-transform: translate3d(0, -50%, 0);
     -ms-transform: translate3d(0, -50%, 0);
     transform: translate3d(0, -50%, 0);
+  }
+}
+
+@-webkit-keyframes inputFadeS {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes inputFadeS {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -541,6 +577,12 @@ body {
   background-color: none;
   border: none;
   appearance: none;
+}
+
+@media (max-width: 500px) {
+  .js-typeahead {
+    font-weight: 400;
+  }
 }
 
 @media (-webkit-animation) {

@@ -11,7 +11,11 @@
   margin-top: 35%;
 
   @media (max-width: 600px) {
-    margin-top: 25%;
+    margin-top: 0;
+
+    animation: inputFadeS 1s;
+    animation-timing-function: cubic-bezier(.91,.14,.29,1);
+    animation-fill-mode: both;
   }
 
   @media (min-width: 1200px) {
@@ -20,12 +24,12 @@
     transform: translateY(-50%);
   }
 
-  animation: inputFade 1s;
+  animation: inputFadeM 1s;
   animation-timing-function: cubic-bezier(.91,.14,.29,1);
   animation-fill-mode: both;
 
   @at-root {
-    @keyframes inputFade {
+    @keyframes inputFadeM {
       0% {
         opacity: 0;
         transform: translate3d(0, 100%, 0);
@@ -34,6 +38,18 @@
       100% {
         opacity: 1;
         transform: translate3d(0, -50%, 0);
+      }
+    }
+
+    @keyframes inputFadeS {
+      0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
       }
     }
   }
@@ -51,6 +67,11 @@
     letter-spacing: -.04em;
     weight: 100;
   }
+
+  @media (max-width: 500px) {
+    font-weight: 400;
+  }
+
   -webkit-font-smoothing: antialiased;
 
   @media (-webkit-animation) {
