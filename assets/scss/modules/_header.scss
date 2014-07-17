@@ -37,11 +37,7 @@
   width: 16px;
   height: 10px;
   position: relative;
-  margin: 1rem 1rem 0 0;
-
-  .js--is-fullscreen & {
-    margin: 22px 10px;
-  }
+  margin: 22px 10px;
 
   transition: .2s;
   transition-delay: .15s;

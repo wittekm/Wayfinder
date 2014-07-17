@@ -400,17 +400,12 @@ body {
   width: 16px;
   height: 10px;
   position: relative;
-  margin: 16px 16px 0 0;
-  margin: 1rem 1rem 0 0;
+  margin: 22px 10px;
   -webkit-transition: .2s;
   transition: .2s;
   -webkit-transition-delay: .15s;
   transition-delay: .15s;
   -webkit-tap-highlight-color: transparent;
-}
-
-.js--is-fullscreen .menu--hamburger {
-  margin: 22px 10px;
 }
 
 .menu--hamburger i {
