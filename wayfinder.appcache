@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2014-07-17 12:10 -0800
+# 2014-07-17 14:02 -0800
 
 CACHE:
 index.html
@@ -32,6 +32,8 @@ assets/fonts/roboto-thin-webfont.eot
 assets/fonts/roboto-thin-webfont.svg
 assets/fonts/roboto-thin-webfont.ttf
 assets/fonts/roboto-thin-webfont.woff
+
+assets/
 
 NETWORK:
 *
