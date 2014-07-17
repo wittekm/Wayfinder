@@ -579,12 +579,6 @@ body {
   appearance: none;
 }
 
-@media (max-width: 500px) {
-  .js-typeahead {
-    font-weight: 400;
-  }
-}
-
 @media (-webkit-animation) {
   .js-typeahead {
     color: #1081de;
