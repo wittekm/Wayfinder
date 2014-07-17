@@ -13,9 +13,7 @@
   @media (max-width: 600px) {
     margin-top: 0;
 
-    animation: inputFadeS 1s;
-    animation-timing-function: cubic-bezier(.91,.14,.29,1);
-    animation-fill-mode: both;
+    animation: none;
   }
 
   @media (min-width: 1200px) {
@@ -24,32 +22,20 @@
     transform: translateY(-50%);
   }
 
-  animation: inputFadeM 1s;
+  animation: inputFade 1s;
   animation-timing-function: cubic-bezier(.91,.14,.29,1);
   animation-fill-mode: both;
 
   @at-root {
-    @keyframes inputFadeM {
+    @keyframes inputFade {
       0% {
         opacity: 0;
-        transform: translate3d(0, 100%, 0);
+        transform: translateY(100%);
       }
 
       100% {
         opacity: 1;
-        transform: translate3d(0, -50%, 0);
-      }
-    }
-
-    @keyframes inputFadeS {
-      0% {
-        opacity: 0;
-        transform: translate3d(0, 100%, 0);
-      }
-
-      100% {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
+        transform: translateY(-50%);
       }
     }
   }
@@ -57,9 +43,7 @@
 
 .js-typeahead {
   display: block;
-  max-width: none;
   margin: 0 auto 1.4rem;
-  width: 100%;
 
   font: inherit;
   font: {
@@ -67,8 +51,6 @@
     letter-spacing: -.04em;
     weight: 100;
   }
-
-  -webkit-font-smoothing: antialiased;
 
   @media (-webkit-animation) {
     color: $blue;

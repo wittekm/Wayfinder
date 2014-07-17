@@ -9,12 +9,32 @@
 
 html {
   font: 100%/1.375 "Roboto", "Helvetica Neue", Helvetica, Arial;
-  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "liga" 1;
+
   color: $dark-gray;
-  text-rendering: optimizeLegibility;
+
+  @media (max-width: 480px) {
+  	font-size: 87.5%;
+  }
 }
 
 html, body {
   height: 100%;
   overflow: hidden;
+}
+
+.js--is-fullscreen {
+	padding-top: 20px;
+
+	&:after {
+		content: '';
+		position: absolute;
+		z-index: 900;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 20px;
+
+		background-color: $lighter-gray;
+	}
 }

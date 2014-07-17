@@ -13290,7 +13290,13 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
     })();
 })(window.jQuery);
 ;window.onload = function() {
-  var input = document.querySelectorAll(".js-typeahead")[0].focus();
+
+  // Detect if installed as webapp
+  if (("standalone" in window.navigator) && window.navigator.standalone){
+    var e = document.querySelectorAll("body")[0];
+
+    e.classList.add("js--is-fullscreen");
+  }
 }
 
 $(document).ready(function(){
@@ -13904,5 +13910,8 @@ $(document).ready(function(){
       empty: '<h3 class="promo">No rooms found</h3><p class="promo">Bummer.</p>'
     }
   });
+
+  var input = document.querySelectorAll(".tt-input")[0];
+  $(input).click().focus();
 
 });
