@@ -77,7 +77,12 @@
   </div>
 
   <footer></footer>
-
+  
+  <script>
+    if (window.navigator && window.navigator.loadPurpose === "preview") {
+      window.location.href = "//wayfinder.daneden.me/preview.html";
+    };
+  </script>
   <script src="assets/js/Wayfinder.min.js"></script>
 </body>
 </html>
