@@ -13306,7 +13306,7 @@ $(document).ready(function(){
     datumTokenizer: function(d) { return Bloodhound.tokenizers.whitespace(d.name); },
     queryTokenizer: Bloodhound.tokenizers.whitespace,
     limit: 3,
-    prefetch: "https://wayfinder.daneden.me/rooms.json"
+    prefetch: "./rooms.json"
   });
 
   var promise = roomsList.initialize();
@@ -13322,9 +13322,9 @@ $(document).ready(function(){
     displayKey: 'name',
     source: roomsList.ttAdapter(),
     templates: {
-      suggestion: Handlebars.compile('<h3>{{name}} <small class="floor floor--{{key}}" title="{{floor}}">{{key}}</small></h3>
+      suggestion: Handlebars.compile('<h3>{{name}}</h3>
       <p>{{landmarks}}</p>
-      <p><small class="meta">{{size}}</small></p>'),
+      <p><small class="meta">{{size}} &bull; {{floor}}</small></p>'),
       empty: '<h3 class="promo">No rooms found</h3><p class="promo">Bummer.</p>'
     }
   });

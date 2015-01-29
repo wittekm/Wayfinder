@@ -21,24 +21,6 @@
     top: 45%;
     transform: translateY(-50%);
   }
-
-  animation: inputFade 1s;
-  animation-timing-function: cubic-bezier(.91,.14,.29,1);
-  animation-fill-mode: both;
-
-  @at-root {
-    @keyframes inputFade {
-      0% {
-        opacity: 0;
-        transform: translateY(100%);
-      }
-
-      100% {
-        opacity: 1;
-        transform: translateY(-50%);
-      }
-    }
-  }
 }
 
 .js-typeahead {
@@ -51,6 +33,7 @@
     letter-spacing: -.04em;
     weight: 100;
   }
+  -webkit-font-smoothing: antialiased;
 
   @media (-webkit-animation) {
     color: $blue;

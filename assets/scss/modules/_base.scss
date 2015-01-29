@@ -8,10 +8,11 @@
 \*-----------------------------------*/
 
 html {
-  font: 100%/1.375 "Roboto", "Helvetica Neue", Helvetica, Arial;
+  font: 100%/1.375 "Roboto", "Helvetica Neue", sans-serif;
   font-feature-settings: "liga" 1;
 
   color: $dark-gray;
+  -webkit-font-smoothing: antialiased;
 
   @media (max-width: 480px) {
   	font-size: 87.5%;
