@@ -13332,4 +13332,10 @@ $(document).ready(function(){
   var input = document.querySelectorAll(".tt-input")[0];
   $(input).click().focus();
 
+  $('.menu--toggle').change(function(){
+    if ($(this).prop("checked") == false) {
+      $(input).click().focus();
+    }
+  });
+
 });
