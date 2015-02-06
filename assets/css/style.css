@@ -400,6 +400,9 @@ body {
   cursor: pointer;
   -webkit-transition: 0.3s cubic-bezier(0.565, -0.26, 0.255, 1.41);
   transition: 0.3s cubic-bezier(0.565, -0.26, 0.255, 1.41);
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .menu--toggle,
