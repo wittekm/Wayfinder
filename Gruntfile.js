@@ -2,18 +2,19 @@ module.exports = function(grunt) {
 
   // Plugins
   grunt.loadNpmTasks('grunt-autoprefixer');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-csso');
+  grunt.loadNpmTasks('grunt-merge-json');
   grunt.loadNpmTasks('grunt-notify');
   grunt.loadNpmTasks('grunt-remfallback');
   grunt.loadNpmTasks('grunt-svg2png');
   grunt.loadNpmTasks('grunt-svgmin');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
 
   // Tasks
-  grunt.registerTask('default', ['svgmin', 'svg2png', 'sass', 'autoprefixer', 'remfallback', 'csso', 'concat:dev', 'uglify:production', 'watch']);
+  grunt.registerTask('default', ['svgmin', 'svg2png', 'sass', 'autoprefixer', 'remfallback', 'csso', 'concat:js', 'uglify:production', 'concat:json', 'watch']);
   grunt.registerTask('styles', ['sass', 'autoprefixer', 'remfallback', 'csso']);
 
   // The order matters!
@@ -31,13 +32,23 @@ module.exports = function(grunt) {
     banner: '/*! <%= pkg.title || pkg.name %> - v<%= pkg.version %>*/\n',
 
     concat: {
-      dev: {
+      js: {
         options: {
           stripBanners: true,
           separator: ';'
         },
         src: jsFiles,
         dest: 'assets/js/<%= pkg.name %>.js'
+      },
+
+      json: {
+        options: {
+          separator: ',',
+          banner: "[",
+          footer: "]"
+        },
+        src: "assets/js/src/rooms/**/*.json",
+        dest: "rooms.json"
       }
     },
 
@@ -117,9 +128,6 @@ module.exports = function(grunt) {
 
     csso: {
       dist: {
-        options: {
-          report: 'gzip',
-        },
         files: {
           'assets/css/style.min.css': ['assets/css/style.css'],
         },
@@ -128,8 +136,8 @@ module.exports = function(grunt) {
 
     watch: {
       javascriptDev: {
-        files: ['assets/js/**/*.js', '!assets/js/Wayfinder.js', '!assets/js/Wayfinder.min.js'],
-        tasks: ['concat:dev', 'uglify:production'],
+        files: ['assets/js/**/*', '!assets/js/Wayfinder.js', '!assets/js/Wayfinder.min.js'],
+        tasks: ['concat:js', 'uglify:production', 'concat:json'],
         options: {
           livereload: false
         }

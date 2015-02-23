@@ -1,0 +1,170 @@
+    {
+        "name": "Emoji",
+        "landmarks": [
+            "Left of the Reception",
+            " around the corner"
+        ],
+        "size": "1 Person",
+        "floor": "Berry St. Building, 5th Floor",
+        "key": "b5"
+    },
+    {
+        "name": "Evenflow",
+        "landmarks": [
+            "Left of the Reception",
+            " around the corner"
+        ],
+        "size": "1 Person",
+        "floor": "Berry St. Building, 5th Floor",
+        "key": "b5"
+    },
+    {
+        "name": "153 Kearny",
+        "landmarks": [
+            "Left of the Reception"
+        ],
+        "size": "2 People",
+        "floor": "Berry St. Building, 5th Floor",
+        "key": "b5"
+    },
+    {
+        "name": "760 Market",
+        "landmarks": [
+            "Left of the Reception"
+        ],
+        "size": "2 People",
+        "floor": "Berry St. Building, 5th Floor",
+        "key": "b5"
+    },
+    {
+        "name": "Armeetingeddon",
+        "landmarks": [
+            "Left of the Reception"
+        ],
+        "size": "2 People",
+        "floor": "Berry St. Building, 5th Floor",
+        "key": "b5"
+    },
+    {
+        "name": "Athena",
+        "landmarks": [
+            "Left of the Reception"
+        ],
+        "size": "4 People",
+        "floor": "Berry St. Building, 5th Floor",
+        "key": "b5"
+    },
+    {
+        "name": "Dropbox (Dropbox)",
+        "landmarks": [
+            "Left of the Reception"
+        ],
+        "size": "8 People",
+        "floor": "Berry St. Building, 5th Floor",
+        "key": "b5"
+    },
+    {
+        "name": "Dropbox (Personal)",
+        "landmarks": [
+            "Left of the Reception"
+        ],
+        "size": "8 People",
+        "floor": "Berry St. Building, 5th Floor",
+        "key": "b5"
+    },
+    {
+        "name": "global_model.py",
+        "landmarks": [
+            "Right of the Reception",
+            " Café side"
+        ],
+        "size": "3 People",
+        "floor": "Berry St. Building, 5th Floor",
+        "key": "b5"
+    },
+    {
+        "name": "Haiku",
+        "landmarks": [
+            "Right of the Reception",
+            " Café side"
+        ],
+        "size": "3 People",
+        "floor": "Berry St. Building, 5th Floor",
+        "key": "b5"
+    },
+    {
+        "name": "Keep Austin Weird",
+        "landmarks": [
+            "Right of the Reception",
+            " Café side"
+        ],
+        "size": "4 People",
+        "floor": "Berry St. Building, 5th Floor",
+        "key": "b5"
+    },
+    {
+        "name": "Makini Train",
+        "landmarks": [
+            "Right of the Reception",
+            " Café side",
+            " around the corner"
+        ],
+        "size": "7 People",
+        "floor": "Berry St. Building, 5th Floor",
+        "key": "b5"
+    },
+    {
+        "name": "Mandatory Team Meeting",
+        "landmarks": [
+            "Right of the Reception",
+            " Café side",
+            " around the corner"
+        ],
+        "size": "7 People",
+        "floor": "Berry St. Building, 5th Floor",
+        "key": "b5"
+    },
+    {
+        "name": "Shamdrop",
+        "landmarks": [
+            "Right of the Reception",
+            " Café side",
+            " around the corner"
+        ],
+        "size": "10 People",
+        "floor": "Berry St. Building, 5th Floor",
+        "key": "b5"
+    },
+    {
+        "name": "Shmodel",
+        "landmarks": [
+            "Right of the Reception",
+            " Café side",
+            " around the corner"
+        ],
+        "size": "4 People",
+        "floor": "Berry St. Building, 5th Floor",
+        "key": "b5"
+    },
+    {
+        "name": "Watermelon Alert",
+        "landmarks": [
+            "Right of the Reception",
+            " Café side",
+            " around the corner"
+        ],
+        "size": "5 People",
+        "floor": "Berry St. Building, 5th Floor",
+        "key": "b5"
+    },
+    {
+        "name": "With a Pulse",
+        "landmarks": [
+            "Right of the Reception",
+            " Café side",
+            " around the corner"
+        ],
+        "size": "5 People",
+        "floor": "Berry St. Building, 5th Floor",
+        "key": "b5"
+    }

@@ -1,0 +1,127 @@
+    {
+        "name": "Auth.net",
+        "landmarks": [
+            "Right of the Reception"
+        ],
+        "size": "2 People",
+        "floor": "Wharfside Building, 6th Floor",
+        "key": "w6"
+    },
+    {
+        "name": "Battlecode",
+        "landmarks": [
+            "Right of the Reception",
+            " by the games room"
+        ],
+        "size": "2 People",
+        "floor": "Wharfside Building, 6th Floor",
+        "key": "w6"
+    },
+    {
+        "name": "Bluesky",
+        "landmarks": [
+            "Right of the Reception"
+        ],
+        "size": "5 People",
+        "floor": "Wharfside Building, 6th Floor",
+        "key": "w6"
+    },
+    {
+        "name": "Few Nags",
+        "landmarks": [
+            "Right of the Reception"
+        ],
+        "size": "2 People",
+        "floor": "Wharfside Building, 6th Floor",
+        "key": "w6"
+    },
+    {
+        "name": "Ejstorr",
+        "landmarks": [
+            "Right of the Reception"
+        ],
+        "size": "2 People",
+        "floor": "Wharfside Building, 6th Floor",
+        "key": "w6"
+    },
+    {
+        "name": "Breakfast Taco",
+        "landmarks": [
+            "Right of the Reception"
+        ],
+        "size": "2 People",
+        "floor": "Wharfside Building, 6th Floor",
+        "key": "w6"
+    },
+    {
+        "name": "Final Destination",
+        "landmarks": [
+            "Right of the Reception"
+        ],
+        "size": "8 People",
+        "floor": "Wharfside Building, 6th Floor",
+        "key": "w6"
+    },
+    {
+        "name": "Fireshare",
+        "landmarks": [
+            "Right of the Reception"
+        ],
+        "size": "8 People",
+        "floor": "Wharfside Building, 6th Floor",
+        "key": "w6"
+    },
+    {
+        "name": "Kava",
+        "landmarks": [
+            "Right of the Reception"
+        ],
+        "size": "10 People",
+        "floor": "Wharfside Building, 6th Floor",
+        "key": "w6"
+    },
+    {
+        "name": "I Sync NYC",
+        "landmarks": [
+            "Right of the Reception"
+        ],
+        "size": "10 People",
+        "floor": "Wharfside Building, 6th Floor",
+        "key": "w6"
+    },
+    {
+        "name": "Vegemite",
+        "landmarks": [
+            "Left of the Reception"
+        ],
+        "size": "5 People",
+        "floor": "Wharfside Building, 6th Floor",
+        "key": "w6"
+    },
+    {
+        "name": "Too Soon?",
+        "landmarks": [
+            "Left of the Reception"
+        ],
+        "size": "12 People",
+        "floor": "Wharfside Building, 6th Floor",
+        "key": "w6"
+    },
+    {
+        "name": "SJC",
+        "landmarks": [
+            "Left of the Reception"
+        ],
+        "size": "5 People",
+        "floor": "Wharfside Building, 6th Floor",
+        "key": "w6"
+    },
+    {
+        "name": "Owen Not On The Wall!",
+        "landmarks": [
+            "Left of the Reception"
+        ],
+        "size": "5 People",
+        "floor": "Wharfside Building, 6th Floor",
+        "key": "w6"
+    }
