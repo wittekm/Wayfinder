@@ -1,7 +1,9 @@
   {
     "name": "Banana Sweater",
     "landmarks": [
-      
+      "Facing Ballpark-side",
+      " behind the chainmail curtain",
+      " interior of Sales area"
     ],
     "size": "5 People",
     "floor": "Wharfside Building, 5th Floor",
@@ -10,7 +12,9 @@
   {
     "name": "Back to Our Roots",
     "landmarks": [
-
+      "Facing Ballpark-side",
+      " behind the chainmail curtain",
+      " interior of Sales area"
     ],
     "size": "6 People",
     "floor": "Wharfside Building, 5th Floor",
@@ -19,7 +23,9 @@
   {
     "name": "Be Worthy of Cupcake",
     "landmarks": [
-
+      "Facing Ballpark-side",
+      " behind the chainmail curtain",
+      " interior of Sales area"
     ],
     "size": "5 People",
     "floor": "Wharfside Building, 5th Floor",
@@ -49,7 +55,8 @@
   {
     "name": "Conflicted Copy",
     "landmarks": [
-
+      "On the Berry-side wall",
+      " by the café couches"
     ],
     "size": "10 People",
     "floor": "Wharfside Building, 5th Floor",
@@ -88,7 +95,8 @@
   {
     "name": "Hanford Inc",
     "landmarks": [
-
+      "Away from Ballpark-side",
+      " facing water-side and Partnerships area"
     ],
     "size": "5 People", 
     "floor": "Wharfside Building, 5th Floor",
@@ -97,7 +105,8 @@
   {
     "name": "LGTM",
     "landmarks": [
-
+      "Away from Ballpark-side",
+      " facing water-side and Partnerships area"
     ],
     "size": "5 People",
     "floor": "Wharfside Building, 5th Floor",
@@ -106,7 +115,8 @@
   {
     "name": "Quiet Close",
     "landmarks": [
-
+      "Away from Ballpark-side",
+      " facing water-side and Partnerships area"
     ],
     "size": "2 People",
     "floor": "Wharfside Building, 5th Floor",
@@ -115,7 +125,8 @@
   {
     "name": "Selective Sync",
     "landmarks": [
-
+      "Away from Ballpark-side",
+      " facing water-side and Partnerships area"
     ],
     "size": "2 People",
     "floor": "Wharfside Building, 5th Floor",
@@ -124,7 +135,8 @@
   {
     "name": "#shipit",
     "landmarks": [
-
+      "Away from Ballpark-side",
+      " facing water-side and Partnerships area"
     ],
     "size": "2 People",
     "floor": "Wharfside Building, 5th Floor",

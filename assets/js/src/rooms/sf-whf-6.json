@@ -1,7 +1,8 @@
     {
         "name": "Auth.net",
         "landmarks": [
-            "Right of the Reception"
+            "Right of the Reception",
+            " by the games room"
         ],
         "size": "2 People",
         "floor": "Wharfside Building, 6th Floor",
@@ -20,7 +21,8 @@
     {
         "name": "Bluesky",
         "landmarks": [
-            "Right of the Reception"
+            "Near the middle of the floor",
+            " slightly closer to Biggie/Ballpark"
         ],
         "size": "5 People",
         "floor": "Wharfside Building, 6th Floor",
@@ -29,7 +31,8 @@
     {
         "name": "Few Nags",
         "landmarks": [
-            "Right of the Reception"
+            "Near the middle of the floor",
+            " slightly closer to Biggie/Ballpark"
         ],
         "size": "2 People",
         "floor": "Wharfside Building, 6th Floor",
@@ -38,7 +41,8 @@
     {
         "name": "Ejstorr",
         "landmarks": [
-            "Right of the Reception"
+            "Near the middle of the floor",
+            " slightly closer to Biggie/Ballpark"
         ],
         "size": "2 People",
         "floor": "Wharfside Building, 6th Floor",
@@ -47,7 +51,8 @@
     {
         "name": "Breakfast Taco",
         "landmarks": [
-            "Right of the Reception"
+            "Near the middle of the floor",
+            " slightly closer to Biggie/Ballpark"
         ],
         "size": "2 People",
         "floor": "Wharfside Building, 6th Floor",
@@ -56,7 +61,7 @@
     {
         "name": "Final Destination",
         "landmarks": [
-            "Right of the Reception"
+            "Between the reception and the snacks"
         ],
         "size": "8 People",
         "floor": "Wharfside Building, 6th Floor",
@@ -65,7 +70,7 @@
     {
         "name": "Fireshare",
         "landmarks": [
-            "Right of the Reception"
+            "Between the reception and the snacks"
         ],
         "size": "8 People",
         "floor": "Wharfside Building, 6th Floor",
@@ -74,7 +79,7 @@
     {
         "name": "Kava",
         "landmarks": [
-            "Right of the Reception"
+            "Between the reception and the snacks"
         ],
         "size": "10 People",
         "floor": "Wharfside Building, 6th Floor",
@@ -83,7 +88,7 @@
     {
         "name": "I Sync NYC",
         "landmarks": [
-            "Right of the Reception"
+            "Between the reception and the snacks"
         ],
         "size": "10 People",
         "floor": "Wharfside Building, 6th Floor",
@@ -92,7 +97,8 @@
     {
         "name": "Vegemite",
         "landmarks": [
-            "Left of the Reception"
+            "Tupac/4th St side",
+            " furthest rooms from the Ballpark"
         ],
         "size": "5 People",
         "floor": "Wharfside Building, 6th Floor",
@@ -101,7 +107,8 @@
     {
         "name": "Too Soon?",
         "landmarks": [
-            "Left of the Reception"
+            "Tupac/4th St side",
+            " furthest rooms from the Ballpark"
         ],
         "size": "12 People",
         "floor": "Wharfside Building, 6th Floor",
@@ -110,7 +117,8 @@
     {
         "name": "SJC",
         "landmarks": [
-            "Left of the Reception"
+            "Tupac/4th St side",
+            " furthest rooms from the Ballpark"
         ],
         "size": "5 People",
         "floor": "Wharfside Building, 6th Floor",
@@ -119,7 +127,8 @@
     {
         "name": "Owen Not On The Wall!",
         "landmarks": [
-            "Left of the Reception"
+            "Tupac/4th St side",
+            " furthest rooms from the Ballpark"
         ],
         "size": "5 People",
         "floor": "Wharfside Building, 6th Floor",
