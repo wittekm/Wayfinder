@@ -10,11 +10,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-merge-json');
   grunt.loadNpmTasks('grunt-notify');
   grunt.loadNpmTasks('grunt-remfallback');
-  grunt.loadNpmTasks('grunt-svg2png');
-  grunt.loadNpmTasks('grunt-svgmin');
 
   // Tasks
-  grunt.registerTask('default', ['svgmin', 'svg2png', 'sass', 'autoprefixer', 'remfallback', 'csso', 'concat:js', 'uglify:production', 'concat:json', 'watch']);
+  grunt.registerTask('default', ['sass', 'autoprefixer', 'remfallback', 'csso', 'concat:js', 'uglify:production', 'concat:json', 'watch']);
   grunt.registerTask('styles', ['sass', 'autoprefixer', 'remfallback', 'csso']);
 
   // The order matters!
@@ -62,33 +60,6 @@ module.exports = function(grunt) {
           'assets/js/<%= pkg.name %>.min.js': jsFiles
         }
       }
-    },
-
-    // Make our SVGs smaller
-    svgmin: {
-      options: { // Configuration that will be passed directly to SVGO
-        plugins: [{
-            removeViewBox: false
-        }],
-      },
-      dist: {
-        files: [{
-          expand: true,
-          cwd: 'assets/images/src', // Src matches are relative to this path.
-          src: ['**/*.svg'], // Actual pattern(s) to match.
-          dest: 'assets/images/', // Destination path prefix.
-          ext: '.min.svg' // Dest filepaths will have this extension.
-        }],
-      },
-    },
-
-    // Make PNG copies of our SVGs
-    svg2png: {
-      all: {
-        files: [
-            { src: ['assets/images/src/**/*.svg'], dest: 'assets/images/' },
-        ],
-      },
     },
 
     // Compile SASS
@@ -149,17 +120,6 @@ module.exports = function(grunt) {
         ],
         // Run Sass, autoprefixer, and CSSO
         tasks: ['sass', 'autoprefixer', 'remfallback', 'csso'],
-        options: {
-          interrupt: true,
-          spawn: false,
-        },
-      },
-
-      images: {
-        files: [
-          'assets/images/**/*'
-        ],
-        tasks: ['svgmin', 'svg2png', 'styles'],
         options: {
           interrupt: true,
           spawn: false,
