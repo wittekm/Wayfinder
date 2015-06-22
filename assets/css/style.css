@@ -83,14 +83,6 @@ body {
 
 /*-----------------------------------*\
 
-  Partial: mixins
-
-  Site-wide mixin definitions
-
-\*-----------------------------------*/
-
-/*-----------------------------------*\
-
   Partial: reset
 
   An overzealous CSS reset
@@ -242,64 +234,6 @@ small,
 
 /*-----------------------------------*\
 
-  Partial: images
-
-  Sprite and image helpers should go here
-
-\*-----------------------------------*/
-
-/*-----------------------------------*\
-
-  Partial: tables
-
-  Table styling
-
-\*-----------------------------------*/
-
-/*-----------------------------------*\
-
-  Partial: forms
-
-  Form & form element styles
-
-\*-----------------------------------*/
-
-.debug-outline * {
-  outline: 1px dotted rgba(0, 0, 0, 0.1);
-  outline-offset: -1px;
-}
-
-.debug-outline *:hover {
-  outline-color: red;
-}
-
-/*-----------------------------------*\
-
-  Partial: animations
-
-  Animation definitions
-
-\*-----------------------------------*/
-
-/*-----------------------------------*\
-
-    Partial: debug
-
-    Helpers for layout debugging, etc.
-
-  \*-----------------------------------*/
-
-.debug-outline * {
-  outline: 1px dotted rgba(0, 0, 0, 0.1);
-  outline-offset: -1px;
-}
-
-.debug-outline *:hover {
-  outline-color: red;
-}
-
-/*-----------------------------------*\
-
   Module: all
 
   Imports modules. Modules are site-
@@ -352,14 +286,6 @@ body {
   height: 20px;
   background-color: #7B8994;
 }
-
-/*-----------------------------------*\
-
-  Module: code
-
-  Code highlighting styles
-
-\*-----------------------------------*/
 
 /*-----------------------------------*\
 
@@ -607,14 +533,6 @@ body {
 .tt-cursor h3 strong {
   color: inherit;
 }
-
-/*-----------------------------------*\
-
-  Module: footer
-
-  High-level styles for the footer
-
-\*-----------------------------------*/
 
 /*===================================*\
 
