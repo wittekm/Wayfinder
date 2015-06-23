@@ -13299,7 +13299,7 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
   }
 }
 
-var rooms = localStorage.getItem("location") || "aus";
+var rooms = localStorage.getItem("location") || "sfo";
 
 console.log(localStorage.getItem("location"));
 
