@@ -20,38 +20,34 @@
   z-index: 900;
 }
 
-.floor {
-  width: 26px;
-  height: 22px;
-  padding-left: 2px;
-  margin: 2px 3px;
-  display: inline-block;
-  vertical-align: middle;
+.nav {
+  list-style: none;
 
-  color: #fff;
-  font-weight: 700;
-  letter-spacing: .1em;
-  line-height: 19px;
-  text-align: center;
-  text-transform: uppercase;
+  li {
+    display: inline-block;
+  }
+}
 
-  background-color: $lighter-gray;
-  border-radius: .25rem;
-  border: 1px solid rgba(black, .1);
+.btn {
+  padding: .25em 1em;
 
-  &--b4 {
+  font: inherit;
+
+  background-color: #fff;
+  border-radius: 4em;
+  border: 2px solid $blue;
+  color: $blue;
+
+  cursor: pointer;
+  appearance: none;
+
+  &#{&}--primary {
     background-color: $blue;
+    color: #fff;
   }
 
-  &--b5 {
-    background-color: $green;
-  }
-
-  &--w6 {
-    background-color: $violet;
-  }
-
-  h3 & {
-    vertical-align: baseline;
+  &#{&}--discrete {
+    background-color: transparent;
+    border-color: transparent;
   }
 }

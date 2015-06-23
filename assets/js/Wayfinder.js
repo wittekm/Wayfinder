@@ -13299,14 +13299,33 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
   }
 }
 
+var rooms = localStorage.getItem("location") || "aus";
+
+console.log(localStorage.getItem("location"));
+
 $(document).ready(function(){
+
+  var locationButtons = $('.js-set-location');
+
+  $.each(locationButtons, function(i, button) {
+    var loc = $(button).attr('data-location');
+
+    if(loc == rooms) {
+      $(button).toggleClass('btn--discrete btn--primary');
+    }
+
+    $(button).on('click', function() {
+      localStorage.setItem("location", loc);
+      window.location.reload();
+    });
+  });
 
   var roomsList = new Bloodhound({
     name: 'sf-rooms',
     datumTokenizer: function(d) { return Bloodhound.tokenizers.whitespace(d.name); },
     queryTokenizer: Bloodhound.tokenizers.whitespace,
     limit: 3,
-    prefetch: "./rooms.json"
+    prefetch: "./assets/js/" + rooms + "-rooms.json"
   });
 
   var promise = roomsList.initialize();

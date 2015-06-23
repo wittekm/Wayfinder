@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 /*! Source viewable at https://wayfinder.daneden.me/assets/scss/ */
 
 /*-----------------------------------*\
@@ -150,39 +149,33 @@ body {
   z-index: 900;
 }
 
-.floor {
-  width: 26px;
-  height: 22px;
-  padding-left: 2px;
-  margin: 2px 3px;
+.nav {
+  list-style: none;
+}
+
+.nav li {
   display: inline-block;
-  vertical-align: middle;
-  color: #fff;
-  font-weight: 700;
-  letter-spacing: .1em;
-  line-height: 19px;
-  text-align: center;
-  text-transform: uppercase;
-  background-color: #7B8994;
-  border-radius: 4px;
-  border-radius: .25rem;
-  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.floor--b4 {
+.btn {
+  padding: .25em 1em;
+  font: inherit;
+  background-color: #fff;
+  border-radius: 4em;
+  border: 2px solid #1081DE;
+  color: #1081DE;
+  cursor: pointer;
+  appearance: none;
+}
+
+.btn.btn--primary {
   background-color: #1081DE;
+  color: #fff;
 }
 
-.floor--b5 {
-  background-color: #48AC68;
-}
-
-.floor--w6 {
-  background-color: #6755B1;
-}
-
-h3 .floor {
-  vertical-align: baseline;
+.btn.btn--discrete {
+  background-color: transparent;
+  border-color: transparent;
 }
 
 /*-----------------------------------*\
@@ -195,7 +188,6 @@ h3 .floor {
 
 h1,
 .alpha {
-  font-size: 40px;
   font-size: 2.5rem;
   line-height: 1.304347826;
   font-weight: 400;
@@ -203,9 +195,7 @@ h1,
 
 h3,
 .gamma {
-  margin-bottom: 4px;
   margin-bottom: .25rem;
-  font-size: 18px;
   font-size: 1.125rem;
   line-height: 1.222222222;
 }
@@ -213,7 +203,6 @@ h3,
 p,
 h1,
 .alpha {
-  margin-bottom: 22px;
   margin-bottom: 1.375rem;
 }
 
@@ -223,7 +212,6 @@ h1,
 
 small,
 .small {
-  font-size: 12px;
   font-size: .75rem;
 }
 
@@ -311,8 +299,8 @@ body {
 }
 
 .menu--toggle {
-  top: 10px;
-  right: 10px;
+  top: 1rem;
+  right: 1rem;
   position: absolute;
   z-index: 1000;
   -webkit-appearance: none;
@@ -421,6 +409,11 @@ body {
   color: inherit;
 }
 
+.site__nav {
+  text-align: center;
+  background-color: rgba(123, 137, 148, 0.1);
+}
+
 /*-----------------------------------*\
 
   Module: content
@@ -452,12 +445,14 @@ body {
   }
 }
 
+.twitter-typeahead {
+  width: 100%;
+}
+
 .js-typeahead {
   display: block;
-  margin: 0 auto 22.4px;
   margin: 0 auto 1.4rem;
   font: inherit;
-  font-size: 44.8px;
   font-size: 2.8rem;
   font-letter-spacing: -.04em;
   font-weight: 100;
@@ -501,7 +496,6 @@ body {
 }
 
 .tt-suggestion {
-  margin-bottom: 22.4px;
   margin-bottom: 1.4rem;
   width: 100%;
 }

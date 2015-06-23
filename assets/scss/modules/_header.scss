@@ -21,13 +21,13 @@
 }
 
 .menu--toggle {
-  
+
   &, &:focus, &:checked {
     outline: none;
   }
- 
-  top: 10px;
-  right: 10px; 
+
+  top: 1rem;
+  right: 1rem;
   position: absolute;
   z-index: 1000;
   -webkit-appearance: none;
@@ -41,7 +41,7 @@
   cursor: pointer;
   transition: .3s cubic-bezier(0.565, -0.260, 0.255, 1.410);
   transform: translate3d(0,0,0);
-  
+
   &:before, &:after {
     content: '';
     display: block;
@@ -50,7 +50,7 @@
     transition: .3s cubic-bezier(0.565, -0.260, 0.255, 1.410);
     border-radius: 2px;
   }
-  
+
   &:before {
     width: 2px;
     height: 2px;
@@ -58,7 +58,7 @@
     left: 50%;
     margin-left: -1px;
   }
-  
+
   &:after {
     width: 2px;
     height: 6px;
@@ -66,14 +66,14 @@
     left: 50%;
     margin-left: -1px;
   }
-  
+
   &:checked {
     transform: rotate(-135deg);
-    
+
     &:after {
       height: 10px;
     }
-    
+
     &:before {
       height: 10px;
       transform: rotate(-90deg);

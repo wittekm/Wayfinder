@@ -12,15 +12,14 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-remfallback');
 
   // Tasks
-  grunt.registerTask('default', ['sass', 'autoprefixer', 'remfallback', 'csso', 'concat:js', 'uglify:production', 'concat:json', 'watch']);
-  grunt.registerTask('styles', ['sass', 'autoprefixer', 'remfallback', 'csso']);
+  grunt.registerTask('default', ['sass', 'autoprefixer', 'csso', 'concat:js', 'uglify:production', 'concat:sfo', 'concat:aus', 'watch']);
+  grunt.registerTask('styles', ['sass', 'autoprefixer', 'csso']);
 
   // The order matters!
   var jsFiles = [
     'assets/vendor/jquery/jquery.js',
     'assets/vendor/handlebars/handlebars.js',
     'assets/js/vendor/**/*.js',
-    'assets/js/src/*.js',
     'assets/js/src/**/*.js'
   ];
 
@@ -39,14 +38,24 @@ module.exports = function(grunt) {
         dest: 'assets/js/<%= pkg.name %>.js'
       },
 
-      json: {
+      sfo: {
         options: {
           separator: ',',
           banner: "[",
           footer: "]"
         },
-        src: "assets/js/src/rooms/**/*.json",
-        dest: "rooms.json"
+        src: "assets/js/src/rooms/sfo/*.json",
+        dest: "assets/js/sfo-rooms.json"
+      },
+
+      aus: {
+        options: {
+          separator: ',',
+          banner: "[",
+          footer: "]"
+        },
+        src: "assets/js/src/rooms/aus/*.json",
+        dest: "assets/js/aus-rooms.json"
       }
     },
 
@@ -65,9 +74,6 @@ module.exports = function(grunt) {
     // Compile SASS
     sass: {
       dist: {
-        options: {
-          compass: true,
-        },
         files: {
           'assets/css/style.css': 'assets/scss/style.scss',
         },
@@ -84,19 +90,6 @@ module.exports = function(grunt) {
       },
     },
 
-    // Add rem px fallbacks
-    remfallback: {
-      options: {
-        log: true,
-        replace: false,
-      },
-      dist: {
-        files: {
-          'assets/css/style.css': ['assets/css/style.css']
-        },
-      },
-    },
-
     csso: {
       dist: {
         files: {
@@ -108,7 +101,7 @@ module.exports = function(grunt) {
     watch: {
       javascriptDev: {
         files: ['assets/js/**/*', '!assets/js/Wayfinder.js', '!assets/js/Wayfinder.min.js'],
-        tasks: ['concat:js', 'uglify:production', 'concat:json'],
+        tasks: ['concat:js', 'uglify:production', 'concat:sfo', 'concat:aus'],
         options: {
           livereload: false
         }
@@ -119,7 +112,7 @@ module.exports = function(grunt) {
           'assets/scss/**/*'
         ],
         // Run Sass, autoprefixer, and CSSO
-        tasks: ['sass', 'autoprefixer', 'remfallback', 'csso'],
+        tasks: ['sass', 'autoprefixer', 'csso'],
         options: {
           interrupt: true,
           spawn: false,
