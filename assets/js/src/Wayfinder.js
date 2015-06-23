@@ -10,8 +10,6 @@ window.onload = function() {
 
 var rooms = localStorage.getItem("location") || "sfo";
 
-console.log(localStorage.getItem("location"));
-
 $(document).ready(function(){
 
   var locationButtons = $('.js-set-location');
