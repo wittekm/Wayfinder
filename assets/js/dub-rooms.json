@@ -1,0 +1,21 @@
+[    {
+        "name": "foo5",
+        "landmarks": [
+            "On the fifth floor",
+            " east side"
+        ],
+        "size": "99 People",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    }
+,    {
+        "name": "bar6",
+        "landmarks": [
+            "On the sixth floor",
+            " west side"
+        ],
+        "size": "99 People",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d6"
+    }
+]
