@@ -32,7 +32,7 @@ $(document).ready(function(){
     datumTokenizer: function(d) { return Bloodhound.tokenizers.whitespace(d.name); },
     queryTokenizer: Bloodhound.tokenizers.whitespace,
     limit: 3,
-    prefetch: "./assets/js/" + rooms + "-rooms.json"
+    prefetch: "./assets/js/dist/" + rooms + "-rooms.json"
   });
 
   var promise = roomsList.initialize();
