@@ -30,6 +30,7 @@ module.exports = function(grunt) {
   };
 
   var roomIn = 'assets/js/src/rooms/';
+  var roomOut = 'assets/js/dist/';
 
   grunt.initConfig({
 
@@ -49,9 +50,9 @@ module.exports = function(grunt) {
       rooms: {
         options: concatOpts,
         files: {
-          'assets/js/sfo-rooms.json': roomIn + 'sfo/*.json',
-          'assets/js/aus-rooms.json': roomIn + 'aus/*.json',
-          'assets/js/dub-rooms.json': roomIn + 'dub/*.json',
+          roomOut 'sfo-rooms.json': roomIn + 'sfo/*.json',
+          roomOut 'aus-rooms.json': roomIn + 'aus/*.json',
+          roomOut 'dub-rooms.json': roomIn + 'dub/*.json',
         }
       }
     },
