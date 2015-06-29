@@ -1,0 +1,215 @@
+[    {
+        "name": "Seagull's Nest",
+        "landmarks": [
+            "Close to IT Dropspot, between SMB and Mid Market sales team",
+            " larger room in the corner"
+        ],
+        "size": "12 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Cork Corner",
+        "landmarks": [
+            "Right next to the IT Dropstop and the uber comfy green couches in the corner"
+        ],
+        "size": "20 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Wingardium Leviosa",
+        "landmarks": [
+            "Right next to the IT Dropstop and SMB "
+        ],
+        "size": "20 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Vote Yes",
+        "landmarks": [
+            "Between SDR & Core. Through the double doors out of the Kitchen"
+        ],
+        "size": "12 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Taco Tuesday",
+        "landmarks": [
+            "To the OReO and Marketing areas from the Café, in the first row of rooms on your left,"
+            " the fourth one"
+        ],
+        "size": "7 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Ukiyo",
+        "landmarks": [
+            "Past Marketing, then Recruitment and then through the lounge area"
+        ],
+        "size": "20 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Seagull's Nest",
+        "landmarks": [
+            "Close to the IT Dropstop. Between the SMB and Juliet"
+        ],
+        "size": "12 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Craggy Island",
+        "landmarks": [
+            "At the middle of the OReO area, facing the windows,"
+            " second room on your left "
+        ],
+        "size": "5 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Musashi",
+        "landmarks": [
+            "To SDR coming from the Café area, sunny side!,"
+            " second room on your left "
+        ],
+        "size": "7 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Shhhhh! Oh Hi!",
+        "landmarks": [
+            "To SDR coming from the Café area, sunny side!,"
+            " first room on your left "
+        ],
+        "size": "7 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Ceiling Pinata",
+        "landmarks": [
+            "To the OReO and Marketing areas from the Café, in the first row of rooms on your left,"
+            " the first one"
+        ],
+        "size": "7 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Emotional Orange",
+        "landmarks": [
+            "To the OReO from the Café area,"
+            " first room on your right after passing the door"
+        ],
+        "size": "7 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Such Great Guys",
+        "landmarks": [
+            "At the middle of the OReO area, facing the windows,"
+            " first room on your left "
+        ],
+        "size": "5 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Bernard Shaw",
+        "landmarks": [
+            "To the OReO from the Café area,"
+            " fourth room on your right after passing the door"
+        ],
+        "size": "3 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Tom Selleck",
+        "landmarks": [
+            "To the OReO and Marketing areas from the Café, in the first row of rooms on your left,"
+            " the third one"
+        ],
+        "size": "5 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Pizzacake",
+        "landmarks": [
+            "At the middle of the OReO area, facing the windows,"
+            " third room on your left "
+        ],
+        "size": "7 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "L'Chaim",
+        "landmarks": [
+            "To the OReO from the Café area,"
+            " third room on your right after passing the door"
+        ],
+        "size": "3 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Jean-Louis Admin",
+        "landmarks": [
+            "To the OReO from the Café area,"
+            " second room on your right after passing the door"
+        ],
+        "size": "3 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Oxford Circus",
+        "landmarks": [
+            "Close to the IT Dropstop. Between the SMB and Mid Market sales team"
+        ],
+        "size": "3 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Craic'ing On",
+        "landmarks": [
+            "Close to the IT Dropstop. Between the SMB and Mid Market sales team"
+        ],
+        "size": "3 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Meet in Potatoes",
+        "landmarks": [
+            "To the OReO and Marketing areas from the Café, in the first row of rooms on your left,"
+            " the second one"
+        ],
+        "size": "5 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    },
+    {
+        "name": "Hook'em",
+        "landmarks": [
+            "Beside SDR"
+        ],
+        "size": "5 people",
+        "floor": "Hatch Street Upper, 5th floor",
+        "key": "d5"
+    }
+,    {
+    }
+]

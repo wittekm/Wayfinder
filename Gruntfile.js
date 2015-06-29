@@ -12,7 +12,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-remfallback');
 
   // Tasks
-  grunt.registerTask('default', ['sass', 'autoprefixer', 'csso', 'concat:js', 'uglify:production', 'concat:sfo', 'concat:aus', 'watch']);
+  grunt.registerTask('default', ['sass', 'autoprefixer', 'csso', 'concat:js', 'uglify:production', 'concat:sfo', 'concat:aus', 'concat:dub', 'watch']);
   grunt.registerTask('styles', ['sass', 'autoprefixer', 'csso']);
 
   // The order matters!
@@ -56,6 +56,16 @@ module.exports = function(grunt) {
         },
         src: "assets/js/src/rooms/aus/*.json",
         dest: "assets/js/aus-rooms.json"
+      },
+
+      dub: {
+        options: {
+          separator: ',',
+          banner: "[",
+          footer: "]"
+        },
+        src: "assets/js/src/rooms/dub/*.json",
+        dest: "assets/js/dub-rooms.json"
       }
     },
 
@@ -101,7 +111,7 @@ module.exports = function(grunt) {
     watch: {
       javascriptDev: {
         files: ['assets/js/**/*', '!assets/js/Wayfinder.js', '!assets/js/Wayfinder.min.js'],
-        tasks: ['concat:js', 'uglify:production', 'concat:sfo', 'concat:aus'],
+        tasks: ['concat:js', 'uglify:production', 'concat:sfo', 'concat:aus', 'concat:dub'],
         options: {
           livereload: false
         }
