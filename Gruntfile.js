@@ -12,8 +12,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-remfallback');
 
   // Tasks
-  grunt.registerTask('default', ['sass', 'autoprefixer', 'csso', 'concat:js', 'uglify:production', 'concat:sfo', 'concat:aus', 'concat:dub', 'watch']);
-  grunt.registerTask('styles', ['sass', 'autoprefixer', 'csso']);
+  grunt.registerTask('build', ['sass', 'autoprefixer', 'csso', 'concat:js', 'uglify:production', 'concat:rooms']);
+  grunt.registerTask('default', ['build', 'watch']);
 
   // The order matters!
   var jsFiles = [
@@ -22,6 +22,15 @@ module.exports = function(grunt) {
     'assets/js/vendor/**/*.js',
     'assets/js/src/**/*.js'
   ];
+
+  var concatOpts = {
+    separator: ',',
+    banner: '[',
+    footer: ']'
+  };
+
+  var roomIn = 'assets/js/src/rooms/';
+  var roomOut = 'assets/js/dist/';
 
   grunt.initConfig({
 
@@ -35,37 +44,16 @@ module.exports = function(grunt) {
           separator: ';'
         },
         src: jsFiles,
-        dest: 'assets/js/<%= pkg.name %>.js'
+        dest: 'assets/js/dist/<%= pkg.name %>.js'
       },
 
-      sfo: {
-        options: {
-          separator: ',',
-          banner: "[",
-          footer: "]"
-        },
-        src: "assets/js/src/rooms/sfo/*.json",
-        dest: "assets/js/sfo-rooms.json"
-      },
-
-      aus: {
-        options: {
-          separator: ',',
-          banner: "[",
-          footer: "]"
-        },
-        src: "assets/js/src/rooms/aus/*.json",
-        dest: "assets/js/aus-rooms.json"
-      },
-
-      dub: {
-        options: {
-          separator: ',',
-          banner: "[",
-          footer: "]"
-        },
-        src: "assets/js/src/rooms/dub/*.json",
-        dest: "assets/js/dub-rooms.json"
+      rooms: {
+        options: concatOpts,
+        files: {
+          roomOut 'sfo-rooms.json': roomIn + 'sfo/*.json',
+          roomOut 'aus-rooms.json': roomIn + 'aus/*.json',
+          roomOut 'dub-rooms.json': roomIn + 'dub/*.json',
+        }
       }
     },
 
@@ -76,7 +64,7 @@ module.exports = function(grunt) {
           banner: '<%= banner %>'
         },
         files: {
-          'assets/js/<%= pkg.name %>.min.js': jsFiles
+          'assets/js/dist/<%= pkg.name %>.min.js': jsFiles
         }
       }
     },
@@ -110,8 +98,8 @@ module.exports = function(grunt) {
 
     watch: {
       javascriptDev: {
-        files: ['assets/js/**/*', '!assets/js/Wayfinder.js', '!assets/js/Wayfinder.min.js'],
-        tasks: ['concat:js', 'uglify:production', 'concat:sfo', 'concat:aus', 'concat:dub'],
+        files: ['assets/js/**/*', '!assets/js/dist'],
+        tasks: ['concat:js', 'uglify:production', 'concat:rooms'],
         options: {
           livereload: false
         }
