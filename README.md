@@ -5,6 +5,9 @@ Find the room. Save the world.
 Local setup:
 ```bash
 npm install
+npm install -g bower
+bower install #  download jQuery, Handlebars
+npm install -g grunt-cli
 grunt watch
 python -m SimpleHTTPServer
 ```
@@ -56,3 +59,7 @@ Add a button to `index.html`:
   <li><button class="js-set-location btn btn--discrete" data-location="dub" title="Set location to Dublin">Dublin</button></li>
 </ul>
 ```
+
+# Setup Troubleshooting
+
+* If you an encounter a 404 on Wayfinder.min.js: trigger a save on Wayfinder.js while 'grunt watch' is running; this should trigger all the minified assets to be generated.

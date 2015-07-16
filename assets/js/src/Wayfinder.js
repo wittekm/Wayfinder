@@ -48,9 +48,11 @@ $(document).ready(function(){
     displayKey: 'name',
     source: roomsList.ttAdapter(),
     templates: {
-      suggestion: Handlebars.compile('<h3>{{name}}</h3>
-      <p>{{landmarks}}</p>
-      <p><small class="meta">{{size}} &bull; {{floor}}</small></p>'),
+      suggestion: Handlebars.compile(
+        '<h3>{{name}}</h3> \
+        <p>{{landmarks}}</p> \
+        <p><small class="meta">{{size}} &bull; {{floor}}</small></p>'
+      ),
       empty: '<h3 class="promo">No rooms found</h3><p class="promo">Bummer.</p>'
     }
   });
