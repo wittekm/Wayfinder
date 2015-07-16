@@ -52,6 +52,7 @@ module.exports = function(grunt) {
           'assets/js/dist/sfo-rooms.json': roomIn + 'sfo/*.json',
           'assets/js/dist/aus-rooms.json': roomIn + 'aus/*.json',
           'assets/js/dist/dub-rooms.json': roomIn + 'dub/*.json',
+          'assets/js/dist/sea-rooms.json': roomIn + 'sea/*.json',
         }
       }
     },

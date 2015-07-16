@@ -1,0 +1,18 @@
+{
+  "name": "Pseudotsuga",
+  "landmarks": [
+    "Next to the main desk",
+    " not inside the badge-in area"
+  ],
+  "size": "4 People",
+  "floor": "Floor 64"
+},
+{
+  "name": "Placeholder",
+  "landmarks": [
+    "Array of landmarks",
+    " separated by a space"
+  ],
+  "size": "12 People",
+  "floor": "Building and floor"
+}
