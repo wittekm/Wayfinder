@@ -1,18 +1,69 @@
 {
   "name": "Pseudotsuga",
   "landmarks": [
-    "Next to the main desk",
-    " not inside the badge-in area"
+    "Next to the entrance desk"
+    , " not inside the main area requiring badge access"
+    , " east side (facing Bellevue)"
   ],
   "size": "4 People",
-  "floor": "Floor 64"
-},
-{
-  "name": "Placeholder",
+  "floor": "Columbia Tower, 64th floor"
+}
+, {
+  "name": "Bob Mahoney",
   "landmarks": [
-    "Array of landmarks",
-    " separated by a space"
+    "Near the bathrooms"
+    , " near the ping-pong table"
+    , " east side (facing Bellevue)"
+    , " south side (facing Mt. Rainier)"
+  ],
+  "size": "2 People",
+  "floor": "Columbia Tower, 64th floor"
+}
+, {
+  "name": "Glue Pot",
+  "landmarks": [
+    "Near the kitchen"
+    , " west side (facing Elliot Bay)"
+  ],
+  "size": "4 People",
+  "floor": "Columbia Tower, 64th floor"
+}
+, {
+  "name": "On a Plain",
+  "landmarks": [
+    "Near the kitchen"
+    , " west side (facing Elliot Bay)"
+  ],
+  "size": "4 People",
+  "floor": "Columbia Tower, 64th floor"
+}
+, {
+  "name": "Cascadia",
+  "landmarks": [
+    "Near the work area and the entrance desk"
+    , " east side (facing Bellevue)"
+    , " north side (facing Space Needle)"
+  ],
+  "size": "14+ People",
+  "floor": "Columbia Tower, 64th floor"
+}
+, {
+  "name": "Maneki",
+  "landmarks": [
+    "Near the work area and the entrance desk"
+    , " east side (facing Bellevue)"
+    , " north side (facing Space Needle)"
   ],
   "size": "12 People",
-  "floor": "Building and floor"
+  "floor": "Columbia Tower, 64th floor"
+}
+, {
+  "name": "Ada",
+  "landmarks": [
+    "Near the entrance desk"
+    , " east side (facing Bellevue)"
+    , " north side (facing Space Needle)"
+  ],
+  "size": "2 People",
+  "floor": "Columbia Tower, 64th floor"
 }
